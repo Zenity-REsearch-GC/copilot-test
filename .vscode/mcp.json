@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "zenity-probe-fs": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    }
+  }
+}

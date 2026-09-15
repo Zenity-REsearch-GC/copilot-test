@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "UserPromptSubmit": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "PreToolUse": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "PostToolUse": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "PreCompact": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "SubagentStart": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "SubagentStop": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ],
+    "Stop": [
+      { "type": "command", "command": ".github/hooks/zenity-vscode-probe.sh", "timeout": 15 }
+    ]
+  }
+}
